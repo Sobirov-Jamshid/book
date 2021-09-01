@@ -65,8 +65,9 @@ class Books(models.Model):
     def __str__(self):
         return self.name
     
-
-
+    class Meta:
+        verbose_name = 'Kitob'
+        verbose_name_plural = verbose_name + 'lar'
 
 
 class KeyManager(models.Manager):
