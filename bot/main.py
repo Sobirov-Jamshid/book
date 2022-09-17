@@ -94,55 +94,6 @@ def help_message_handler(message):
     text = Messages.HELP_MESSAGE_HANDLER.get(user.lang)
     bot.send_message(chat_id=chat_id, text=text)
 
-@bot.message_handler(commands=['help'])
-def help_message_handler(message):
-    chat_id = message.chat.id
-    user = BotUser.objects.get(chat_id=chat_id)
-    text = Messages.HELP_MESSAGE_HANDLER.get(user.lang)
-    bot.send_message(chat_id=chat_id, text=text)
-
-@bot.message_handler(commands=['help'])
-def help_message_handler(message):
-    chat_id = message.chat.id
-    user = BotUser.objects.get(chat_id=chat_id)
-    text = Messages.HELP_MESSAGE_HANDLER.get(user.lang)
-    bot.send_message(chat_id=chat_id, text=text)
-
-@bot.message_handler(commands=['help'])
-def help_message_handler(message):
-    chat_id = message.chat.id
-    user = BotUser.objects.get(chat_id=chat_id)
-    text = Messages.HELP_MESSAGE_HANDLER.get(user.lang)
-    bot.send_message(chat_id=chat_id, text=text)
-
-@bot.message_handler(commands=['help'])
-def help_message_handler(message):
-    chat_id = message.chat.id
-    user = BotUser.objects.get(chat_id=chat_id)
-    text = Messages.HELP_MESSAGE_HANDLER.get(user.lang)
-    bot.send_message(chat_id=chat_id, text=text)
-
-@bot.message_handler(commands=['help'])
-def help_message_handler(message):
-    chat_id = message.chat.id
-    user = BotUser.objects.get(chat_id=chat_id)
-    text = Messages.HELP_MESSAGE_HANDLER.get(user.lang)
-    bot.send_message(chat_id=chat_id, text=text)
-
-@bot.message_handler(commands=['help'])
-def help_message_handler(message):
-    chat_id = message.chat.id
-    user = BotUser.objects.get(chat_id=chat_id)
-    text = Messages.HELP_MESSAGE_HANDLER.get(user.lang)
-    bot.send_message(chat_id=chat_id, text=text)
-
-@bot.message_handler(commands=['help'])
-def help_message_handler(message):
-    chat_id = message.chat.id
-    user = BotUser.objects.get(chat_id=chat_id)
-    text = Messages.HELP_MESSAGE_HANDLER.get(user.lang)
-    bot.send_message(chat_id=chat_id, text=text)
-
 callback_query_handlers = {
     CallTypes.Nothing: lambda _, __: True,
     # CallTypes.Back: language.back_call_handler,
